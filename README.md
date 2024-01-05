@@ -1,7 +1,5 @@
-# Aprendendo-HTML5_CSS3
-
 <body>
-<h1>Exercícios e Desafios</h1> 
+<h1>Apredendo-HTML5 e CSS3</h1> 
 <hr>
 <p>Estou aprendendo HTML e CSS com o <em>professor guanabara</em> aqui colocarei todos os exercicios, desafios (feitos por mim) e <strong>resumos</strong> que irei fazer! 
 <p> Espero que contribua!</p>
