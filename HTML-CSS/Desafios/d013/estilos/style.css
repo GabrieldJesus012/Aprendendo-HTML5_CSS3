@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100vh; /* altura total do navegador  */
+    width: 100vw; /* largura total do navegador  */
+    background-color: black;  /* só para entender  */
+}
+
+main{
+    position: relative;    /* para centralizar - como se fosse container  */ 
+    height: 100vh;   /* altura total do navegador  */
+}
+
+body{
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center; /* imagem do fundo e sem repetir, em cima centralizado  */;
+    background-size: cover; /* imagem pegar a tela inteira  */
+    background-attachment: fixed; /* imagem sem rolagem  */
+
+}
+
+section#telefone{
+    position: absolute;   /* para centralizar - como se fosse conteudo  */ 
+    top: 50%;    /* para centralizar - como se fosse conteudo  */ 
+    left: 50%; /* para centralizar - como se fosse conteudo  */ 
+    transform: translate(-50%, -50%); /* para centralizar - como se fosse conteudo  */ 
+    height: 627px;  /* altura do telefone  */ 
+    width: 310px; /* largura do telefone  */ 
+    background: url('../imagens/frame-iphone.png') no-repeat;  /* imagem do telefone e sem repetir  */
+} 
+
+iframe#tela{
+    position: relative;   /* para mexer na posição */
+    top: 80px; /* mexer em cima  */ 
+    left: 22px; /* mexer para esquerda  */ 
+    width: 267px; /* largura da tela  */ 
+    height: 471px; /* altura da tela  */ 
+}
+
+section#redes-sociais{
+    text-align: right;  /* para ir para direita  */ 
+}
+
+section#redes-sociais img{
+    width: 50px; /* largura do botao */ 
+    margin: 10px; /* para separar os botao */ 
+    border-radius: 50%; /* para redondar os botao */ 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);  /* para sombra os botao */ 
+    box-sizing: border-box; /* para botao nao aumentar quando passar por cima */ 
+} 
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637); /* para quando passar por cima  */ 
+    transform: translate(-3px, -3px); /* para levantar um pouco */ 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform 0.3s, border 1s; /* para fazer devagar */ 
+}
+
+section#redes-sociais img:active {
+    transform: scale(95%);  /* para quando ativar ele afundar */ 
+}
+
