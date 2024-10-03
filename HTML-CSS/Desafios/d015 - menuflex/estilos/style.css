@@ -26,6 +26,7 @@ header{
 
 header>h1{
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
 }
 
 header>nav{
@@ -52,8 +53,14 @@ header>nav :hover{
 
 main{
     background-color: white;
-    margin: 10px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px black;
+    width: 90vw;
+    margin: auto;
+}
+
+main>section>p{
+    line-height: 2em;
+    text-indent: 30px;
 }
