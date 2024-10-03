@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background-color: lightgray;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+header>h1{
+    border: 1px dotted black;
+}
+
+header>nav{
+    border: 1px dotted black;
+}
+
+header>nav :hover{
+    color: rgb(38, 129, 165);
+}
+
+main{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
+}
