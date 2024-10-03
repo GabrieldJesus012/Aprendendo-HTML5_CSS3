@@ -24,3 +24,18 @@ header>h1{
 header>nav>a{
     width: 90vw;
 }
+
+#menus{
+    display: block;
+    cursor: pointer;
+    color: black;
+}
+
+#itens {
+    display: none;
+}
+
+#itens.active {
+    display: flex; 
+    flex-flow: column nowrap; 
+}

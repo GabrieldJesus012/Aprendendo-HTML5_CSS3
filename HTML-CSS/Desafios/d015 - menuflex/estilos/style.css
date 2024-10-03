@@ -35,6 +35,15 @@ header>nav{
     justify-content: flex-end;
 }
 
+@media screen and (min-width: 681px) {
+    #itens {
+        display: block !important; 
+    }
+    #menus{
+        display: none;
+    }
+}
+
 header>nav>a{
     padding: 10px;
     margin: 5px;
